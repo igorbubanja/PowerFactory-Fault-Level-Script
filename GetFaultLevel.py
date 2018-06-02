@@ -46,6 +46,7 @@ def main():
 			
 def get_XR_ratio(line):
 	'''Get the X/R ratio at the fault. The X/R ratio is calculated by tan(angle of positive sequence voltage minus angle of positive sequence current'''
+	#Need to find the right syntax
 	#U1_angle = line.GetAttribute('m:U1:bus1') + line.GetAttribute('m:U1:bus2') 
 	#I1_angle = line.GetAttribute('m:phii1:bus1') + line.GetAttribute('m:phii1:bus1')
 	#return np.tan(U1_angle - I1_angle)
